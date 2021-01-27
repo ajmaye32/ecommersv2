@@ -1,0 +1,305 @@
+.topnav {
+  overflow:hidden;
+  background-color:goldenrod;
+}
+
+.topnav a {
+  float: left;
+  color:whitesmoke;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:17px;
+}
+
+.topnav a:hover {
+  background-color:yellowgreen;
+  color:orangered;
+}
+
+.topnav a.active {
+  background-color:coral;
+  color:whitesmoke
+  }
+    /* body */
+    body{
+        background-color: wheat;
+    }
+   /*Socail Media logo */
+  
+   ul{
+    display: flex;
+    justify-content:center;
+  }
+  ul li{
+    display: inline-block;
+    background-color:white;
+    padding:10px 14px;
+    margin:0 5px;
+  }
+  ul li:hover{
+    background-color:blue;
+  }
+  ul li a:hover{
+    background-color:#FF4500;
+    font-size:20px   
+  }
+  ul li a{
+    color:brown;
+    width:100%;
+    margin:0px;
+      height:100%;
+    transition: all 0.7s ease;
+  }
+
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+}
+.ML{
+  width: 100px;
+  float: left;
+}
+section {
+  display:inline-block;
+  width: 1200px;
+}
+.foodimg {
+    width:200px;
+    height:100px;
+  }
+.appetizers{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+.bnd {
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+  align-items: center;
+}
+.Des{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+
+.Sides{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+
+.Bev{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+
+
+  /*Footer*/
+  footer{
+    text-align: center;
+    background-color:brown;
+  }
+
+
+
+  /* Media Queris*/
+  @media screen and (max-width:800px){
+  .topnav {
+    overflow:hidden;
+    background-color:goldenrod;
+  }
+}
+
+@media screen and (max-width:800px){
+  .topnav a {
+    float: left;
+    color:whitesmoke;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:17px;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  .topnav a:hover {
+    background-color:yellowgreen;
+    color:orangered;
+  }
+}
+ 
+
+@media screen and (max-width:800px){
+  .topnav a.active {
+    background-color:coral;
+    color:whitesmoke
+    }
+  }
+
+
+      /* body */
+      @media screen and (max-width:800px){
+      body{
+          background-color: wheat;
+      }
+    }
+
+    @media screen and (max-width:800px){
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+}
+
+@media screen and (max-width:800px){
+h2 {
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width:800px){
+.ML{
+  width: 100px;
+  float: left;
+}
+}
+
+@media screen and (max-width:800px){
+section {
+  display:inline-block;
+  width: 1200px;
+}
+}
+
+@media screen and (max-width:800px){
+.foodimg {
+    width:200px;
+    height:100px;
+  }
+}
+
+  @media screen and (max-width:800px){
+.appetizers{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+  }
+
+@media screen and (max-width:800px){
+.bnd {
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+  align-items: center;
+}
+}
+@media screen and (max-width:800px){
+.Des{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+}
+
+@media screen and (max-width:800px){
+.Sides{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+}
+
+@media screen and (max-width:800px){
+.Bev{
+  width:300px;
+  background-color: rgba(214, 180, 93, 0.918);
+  float: left;
+  text-align: center;
+  padding: 20px;
+  margin:10px;
+}
+}
+
+     /*Socail Media logo */
+     @media screen and (max-width:800px){
+     ul{
+      display: flex;
+      justify-content:center;
+    }
+  }
+  @media screen and (max-width:800px){
+    ul li{
+      display: inline-block;
+      background-color:white;
+      padding:10px 14px;
+      margin:0 5px;
+    }
+  }
+
+  @media screen and (max-width:800px){
+    ul li:hover{
+      background-color:blue;
+    }
+  }
+
+  @media screen and (max-width:800px){
+    ul li a:hover{
+      background-color:orange;
+      font-size:20px
+      }
+    }
+
+    @media screen and (max-width:800px){
+    ul li a{
+      color:brown;
+      width:100%;
+      margin:0px;
+        height:100%;
+      transition: all 0.7s ease;
+    }
+  }
+   
+  /*Footer*/
+  @media screen and (max-width:800px){
+    footer{
+      text-align: center;
+      background-color:burlywood;
+    }
+  }

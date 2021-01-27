@@ -1,0 +1,230 @@
+header{
+  text-align:center;
+  background-color:teal;
+  color:white;
+  padding:10px
+}
+.ML{
+  width: 100px;
+  float: left;
+}
+.topnav {
+  overflow:hidden;
+  background-color:goldenrod;
+}
+
+.topnav a {
+  float: left;
+  color:whitesmoke;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:17px;
+}
+
+.topnav a:hover {
+  background-color:yellowgreen;
+  color:orangered;
+}
+
+.topnav a.active {
+  background-color:coral;
+  color:whitesmoke
+  }
+
+.container{ 
+  width: 90%;
+  margin: auto;
+}
+/*Hero*/
+.hero-image{ 
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3e-t0fg8bSW09oz3q3iH1jJhd_hmehoEU_g&usqp=CAU);
+  height:90vh;
+  background-size:cover
+}
+.hero-text{
+  text-align:center;
+  font-size:50%;
+}
+h1{
+  font-size:100px
+}
+h3{
+font-size:100px;
+}
+body{
+  background-color:burlywood;
+  color:white;
+  margin:0;
+}
+
+footer ul{
+  display: flex;
+  justify-content:center;
+}
+footer ul li{
+  display: inline-block;
+  background-color:white;
+  padding:10px 14px;
+  margin:0 5px;
+}
+footer:hover{
+  background-color:blue;
+}
+footer a:hover{
+  background-color:#FF4500;
+  font-size:20px
+    
+}
+footer a{
+  color:yellow;
+  width:100%;
+  margin:0px;
+    height:100%;
+  transition: all 0.7s ease;
+}
+
+/*Socail Media logo */
+ul{
+  display: flex;
+  justify-content:center;
+}
+ul li{
+  display: inline-block;
+  background-color:white;
+  padding:10px 14px;
+  margin:0 5px;
+}
+ul li:hover{
+  background-color:blue;
+}
+ul li a:hover{
+  background-color:#FF4500;
+  font-size:20px   
+}
+ul li a{
+  color:brown;
+  width:100%;
+  margin:0px;
+    height:100%;
+  transition: all 0.7s ease;
+}
+p{
+  font-size:50px;
+}
+footer{
+  font-size:5%;
+  text-align: center;
+  background-color:chocolate;
+}
+
+/* Media Queris*/
+@media screen and (max-width:800px){
+header{
+  background-color:teal;
+    font-size:150%;
+  }
+
+}
+
+@media screen and (max-width:800px){
+  .topnav{
+    background-color:chocolate;
+    font: size 75%;
+  }
+
+}
+
+
+@media screen and (max-width:800px){
+  .topnav a{
+    background-color:chocolate;
+    font: size 75%;
+  }
+
+}
+
+@media screen and (max-width:800px){
+  .topnav a:hover{
+    background-color:chocolate;
+    font: size 75%;
+  }
+
+}
+
+@media screen and (max-width:800px){
+  .topnav.active{
+    background-color:chocolate;
+    font: size 75%;
+  }
+}
+
+
+@media screen and (max-width:800px){
+.hero-image{ 
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3e-t0fg8bSW09oz3q3iH1jJhd_hmehoEU_g&usqp=CAU);
+  height:100vh;
+  background-size:cover
+}
+}
+
+@media screen and (max-width:800px){
+.hero-text{
+  text-align:center;
+  font-size:150%;
+}
+}
+
+
+@media screen and (max-width:800px){
+  h1{
+    font: size 50%;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  h3{
+    font: size 40%;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  body{
+    font: size 40%;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  footer ul{
+    display: flex;
+  justify-content:center;
+}
+}
+
+@media screen and (max-width:800px){
+  footer ul li{
+    display: inline-block;
+    background-color:white;
+    padding:10px 14px;
+    margin:0 5px;
+}
+}
+
+
+@media screen and (max-width:800px){
+  footer:hover{
+    background-color:teal;
+    font-size:20px
+  }
+}
+
+
+@media screen and (max-width:800px){
+footer a:hover{
+  background-color:teal;
+  font-size:20px;
+}
+}
