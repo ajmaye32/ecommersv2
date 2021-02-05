@@ -4,8 +4,8 @@
             "id": 1,
             "Food": "Oatmeal",
             "price": 5.50,
-            "description": "Jumbo size Fresh Fruit of oatmeal with honey",
-            "img": "/img/Oatmeal.jpg"
+            "description": "Jumbo size Fresh Fruit with oatmeal with honey",
+            "img": "images/Oatmeal.jpg"
         },
         {
             "id": 2,
@@ -13,7 +13,7 @@
             "price": 10.50,
             "description": "2 homemade belgium waffle served with topping of choice. ",
             "type": "Strawberry Whipped Cream Blueberries Chocolate Syrup",
-            "img": "/img/waff.jpg>"
+            "img": "images/waff.jpg"
         },
         {
             "id": 3,
@@ -21,7 +21,7 @@
             "price": 11.50,
             "description": " 3 Fluffy buttery stacked pancakes with topping of choice.",
             "type": "Strawberry,Whipped Cream, Blueberries Chocolate Syrup",
-            "img": "/img/Pancakes.jpg"
+            "img": "images/Pancakes.jpg"
         },
         {
             "id": 4,
@@ -29,7 +29,7 @@
             "price": 7.50,
             "description": "Fresh Omelette with any choice of meats",
             "type": "Fresh Omelette with any choice of meats",
-            "img": "/img/Om.png"
+            "img": "images/Om.png"
         },
         {
             "id": 5,
@@ -37,57 +37,57 @@
             "price": 8.50,
             "description": "delicious Breakfeast sandwhich with melted cheese tasty buttery bread and meat of your choice it melts in your mouth",
             "type": "Ham, Bacon, Meatlovers, cheese,",
-            "img": "/img/Breakfastsand.png,"
+            "img": "images/Breakfastsand.png"
         },
         {
             "id": 6,
             "Food": "Breakfeast Bowl",
             "price": 9.50,
             "description": "delicious Breakfast bowl with any meats you wanted healthy Breakfast meal",
-            "img": "/img/Breakfastbowl.jpg"
+            "img": "images/BreakfastBowl.jpg"
         },
         {
             "id": 7,
             "Food": "Ham Mac & Cheese",
             "price": 12.99,
-            "description": "Delicious homemade Baked Ham Mac and cheese it's soo cheesy you just want more. Ask to change meats if you don't want ham. </p> ",
+            "description": "Delicious homemade Baked Ham Mac and cheese it's soo cheesy you just want more. Ask to change meats if you don't want ham. ",
             "type": "(Bacon, Ham, or beef)",
-            "img": "/img/Macnc.png"
+            "img": "images/Macnc.png"
         },
         {
             "id": 8,
             "Food": "Chips w/ Queso",
             "price": 8.50,
             "description": "Tortilla chips served with melted white cheese.",
-            "img": "/img/Chips.jpg"
+            "img": "images/Chips.jpg"
         },
         {
             "id": 9,
             "Food": "Chips w/ Spinach",
             "price": 10.50,
             "description": "Tortilla chips served with cheesy spinach dip",
-            "img": "/img/spinacdip.png"
+            "img": "images/spinacdip.png"
         },
         {
             "id": 10,
             "Food": "Cinnamon Bun",
             "price": 6.60,
             "description": "Cinnamon Buns with sweet icing you wanna have seconds. ",
-            "img": "/img/Cbun.jpg"
+            "img": "images/Cbun.jpg"
         },
         {
             "id": 11,
             "Food": "Eclair",
             "price": 5.50,
             "description": "nice and creamy Eclair ",
-            "img": "/img/Eclair.jpg"
+            "img": "images/Eclair.jpg"
         },
         {
             "id": 12,
             "Food": "Pigs in a Blanket",
             "price": 6.00,
             "description": "Cooked Hot Dog wrapped in fluffy buttery bread. A delicious home favorite and flavorful delicacy",
-            "img": "/img/Pig.png"
+            "img": "images/Pig.png"
         }
     ]
 }

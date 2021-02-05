@@ -1,18 +1,28 @@
 import React from 'react';
 import './App.css';
-import Nav from './Nav'
+import Nav from './Nav';
+import Contact from './Contact';
 import Products from './Components/Products';
-import About from './About'
-import Contact from './Contact'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Home';
+import Footer from './Footer'
+
+
 
 function App() {
   return (
-    <div className="App" >
-      <Nav />
-      <About />
-      <Products />
-      <Contact />
-    </div>
+
+    <Router>
+      <div className="App" >
+        <Nav />
+        <Switch>
+          <Route path="/products" component={Products} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/home" component={Home} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router >
   );
 
 }
